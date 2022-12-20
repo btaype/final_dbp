@@ -61,7 +61,7 @@ namespace AutoCompleteEntry
         }
         private async void genera_1(object sender, EventArgs e)
         {
-            var pdf = PDFManager.GeneratePDFFromView(maingrid); // aqui le paso la vista que quiero que vuelva pdf
+            var pdf = PDFManager.GeneratePDFFromView(maingrid); 
             var basepath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             var pdfpath = Path.Combine(basepath, $"/mypdf.pdf");
             pdf.Save(pdfpath);
