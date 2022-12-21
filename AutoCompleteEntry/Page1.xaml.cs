@@ -57,7 +57,7 @@ namespace AutoCompleteEntry
 
 
 
-
+//convierte la hoja en un pdf 
         }
         private async void genera_1(object sender, EventArgs e)
         {
